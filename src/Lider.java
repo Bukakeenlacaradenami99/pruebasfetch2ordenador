@@ -14,5 +14,15 @@ public class Lider {
         return array;
     }
 
+    public <T> void damelista(T[] array){
+
+        for(T elemento:array){
+
+            System.out.println(elemento);
+        }
+
+
+    }
+
 
 }
