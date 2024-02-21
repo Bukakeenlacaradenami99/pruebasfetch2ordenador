@@ -17,4 +17,8 @@ public class Colaborador {
         return nombres;
     }
 
+    @Override
+    public String toString() {
+        return edades.toString();
+    }
 }

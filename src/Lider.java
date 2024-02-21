@@ -4,9 +4,10 @@ public class Lider {
 
     public ArrayList<Integer> damelista(ArrayList<Integer> array){
 
-        for(int i=0; i<array.size();i++){
+        for(int i=0; i<10;i++){
 
             array.add((int)(Math.random()*100)+1);
+
 
         }
 
